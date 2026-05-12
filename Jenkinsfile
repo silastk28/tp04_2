@@ -5,12 +5,12 @@ pipeline {
 
         stage('Run Script') {
             steps {
-                bat 'C:\Program Files\Python314\python.exe number_signe.py'
+                bat "C:\\Program Files\\Python314\\python.exe number_signe.py 13"
             }
         }
     }
 }
-  
+
 
 
 
